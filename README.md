@@ -96,7 +96,7 @@ After creating a family you can *view/add/delete* members from family & edit fam
 - **View Family Todo Table:** `http://localhost:3000/dashboard/todo/family`
 
 These two pages are identical in terms of appearance & functionality. <br/>
-From these pages you have access to *create,view,&update* a todo.
+From these pages you have access to *create,view,& update* a todo.
 
 - **Create Todo:** `http://localhost:3000/dashboard/todo/create`
 
