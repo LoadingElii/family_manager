@@ -63,30 +63,75 @@ The project utilizes the following technologies:
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## API Endpoints
+## Application Pages
 
-### Member Endpoints
-- **Create Member:** `[POST] /admin/signup`
-- **Login Member:** `[POST] /admin/login`
+First users wil login into members account using email & password.
+If not a member there is a link to a page to get you all signed up.
 
-### Family Endpoints
-- **Create Family:** `[POST] /family/create`
-- **Get Family Details:** `[GET] /family/`
+### Sign-up/Login Member
+- **Sign-up Member:** `http://localhost:3000/signup`
+- **Login Member:** `http://localhost:3000/admin/login`
 
-### Todo Endpoints
-- **Add Todo (Member):** `[POST] /todos/create`
-- **Add Todo (Family):** `[POST] /todos/family/create`
+After logging in you will be redirected to the dashboard home page.
+The home page shows a calendar for keeping track of the date. 
+An motivational quote that changes daily.
+Lastly it contains two process bars for completed percentages for personal & family todos.
+
+### Home 
+- **Home:** 'http://localhost:3000/dashboard/home'
+
+From inside the dashboard you have access to 
+*your todos, family details, family todos, & your account details* pages.
+Click the page name from the nav-bar you want to view.
+
+### Family
+- **Family:** `http://localhost:3000/dashboard/family`
+
+If you're not a member of a family you have the ability to create a family. 
+After creating a family you can *view/add/delete* members from family & edit family name.
+
+### Todos
+- **View Member Todo Table:** `http://localhost:3000/dashboard/todo`
+- **View Family Todo Table:** `http://localhost:3000/dashboard/todo/family`
+
+These two pages are identical in terms of appearance & functionality. 
+From these pages you have access to *create,view,&update* a todo.
+
+- **Create Todo:** 'http://localhost:3000/dashboard/todo/create'
+
+Here you have a form that is used to create a new todo.
+
+- **View Todo by Id:** 'http://localhost:3000/dashboard/todo/{id}'
+
+From here you can view all the details about the todo selected to view. 
+Also have the option to delete the todo from the table.
+
+- **Update Todo by Id:** 'http://localhost:3000/dashboard/todo/update/{id}'
+
+On this page you can edit all the details about the selected todo **except for the Id**.
+
+### Member
+- **View Account Details:** 'http://localhost:3000/dashboard/member'
+
+On this page you can view all your account details, also have the options to delete/edit your account.
+
+- **Edit Account Details:** 'http://localhost:3000/dashboard/member/edit/{id}'
+
+Here is the form to edit account details. 
+You have the ability to edit every field but the **id field**.
+
+###Log Out
+
+The Log Out nav link will logout the member and redirect to the login page.
 
 ## Project Status
 
 The project is currently in progress with the following planned improvements:
-- Allow family members to add family tasks to their personal to-do list.
-- Enhance API responses to include family tasks when retrieving family details.
+-deploy to a live server 
 
 ## Acknowledgements
 
-- Flask Application Factory Pattern: [Flask Documentation](https://flask.palletsprojects.com/en/2.3.x/patterns/appfactories/)
-- Video Tutorial: [Flask CRUD API Tutorial](https://www.youtube.com/watch?v=qKOCXL5ZseA)
+
 
 ## Contributions
 
