@@ -65,57 +65,57 @@ The project utilizes the following technologies:
 
 ## Application Pages
 
-First users wil login into members account using email & password.
+First users wil login into members account using email & password.<br/>
 If not a member there is a link to a page to get you all signed up.
 
 ### Sign-up/Login Member
 - **Sign-up Member:** `http://localhost:3000/signup`
 - **Login Member:** `http://localhost:3000/admin/login`
 
-After logging in you will be redirected to the dashboard home page.
-The home page shows a calendar for keeping track of the date. 
-An motivational quote that changes daily.
+After logging in you will be redirected to the dashboard home page.<br/>
+The home page shows a calendar for keeping track of the date.<br/>
+A motivational quote that changes daily.
 Lastly it contains two process bars for completed percentages for personal & family todos.
 
 ### Home 
-- **Home:** 'http://localhost:3000/dashboard/home'
+- **Home:** `http://localhost:3000/dashboard/home`
 
-From inside the dashboard you have access to 
+From inside the dashboard you have access to <br/>
 *your todos, family details, family todos, & your account details* pages.
 Click the page name from the nav-bar you want to view.
 
 ### Family
 - **Family:** `http://localhost:3000/dashboard/family`
 
-If you're not a member of a family you have the ability to create a family. 
+If you're not a member of a family you have the ability to create a family. <br/>
 After creating a family you can *view/add/delete* members from family & edit family name.
 
 ### Todos
 - **View Member Todo Table:** `http://localhost:3000/dashboard/todo`
 - **View Family Todo Table:** `http://localhost:3000/dashboard/todo/family`
 
-These two pages are identical in terms of appearance & functionality. 
+These two pages are identical in terms of appearance & functionality. <br/>
 From these pages you have access to *create,view,&update* a todo.
 
-- **Create Todo:** 'http://localhost:3000/dashboard/todo/create'
+- **Create Todo:** `http://localhost:3000/dashboard/todo/create`
 
 Here you have a form that is used to create a new todo.
 
-- **View Todo by Id:** 'http://localhost:3000/dashboard/todo/{id}'
+- **View Todo by Id:** `http://localhost:3000/dashboard/todo/{id}`
 
-From here you can view all the details about the todo selected to view. 
+From here you can view all the details about the todo selected to view. <br/>
 Also have the option to delete the todo from the table.
 
-- **Update Todo by Id:** 'http://localhost:3000/dashboard/todo/update/{id}'
+- **Update Todo by Id:** `http://localhost:3000/dashboard/todo/update/{id}`
 
 On this page you can edit all the details about the selected todo **except for the Id**.
 
 ### Member
-- **View Account Details:** 'http://localhost:3000/dashboard/member'
+- **View Account Details:** `http://localhost:3000/dashboard/member`
 
 On this page you can view all your account details, also have the options to delete/edit your account.
 
-- **Edit Account Details:** 'http://localhost:3000/dashboard/member/edit/{id}'
+- **Edit Account Details:** `http://localhost:3000/dashboard/member/edit/{id}`
 
 Here is the form to edit account details. 
 You have the ability to edit every field but the **id field**.
