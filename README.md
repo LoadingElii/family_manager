@@ -73,6 +73,7 @@ If not a member there is a link to a page to get you all signed up.
 - **Login Member:** `http://localhost:3000/admin/login`
 
 After logging in you will be redirected to the dashboard home page. <br/>
+
 The home page shows a calendar for keeping track of the date.<br/>
 A motivational quote that changes daily.
 Lastly it contains two process bars for completed percentages for personal & family todos.
