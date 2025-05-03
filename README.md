@@ -121,7 +121,7 @@ On this page you can view all your account details, also have the options to del
 Here is the form to edit account details. 
 You have the ability to edit every field but the **id field**.
 
-###Log Out
+### Log Out
 
 The Log Out nav link will logout the member and redirect to the login page.
 
