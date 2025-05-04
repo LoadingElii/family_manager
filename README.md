@@ -72,7 +72,8 @@ If not a member there is a link to a page to get you all signed up.
 - **Sign-up Member:** `http://localhost:3000/signup`
 - **Login Member:** `http://localhost:3000/admin/login`
 
-![sign-up view](images/sign-up_view.PNG) ![login view](images/login_view.PNG)
+![sign-up view](images/sign-up_view.PNG) <br/>
+![login view](images/login_view.PNG)
 
 After logging in you will be redirected to the dashboard home page. <br/>
 
@@ -93,7 +94,8 @@ Click the page name from the nav-bar you want to view.
 ### Family
 - **Family:** `http://localhost:3000/dashboard/family`
 
-![family view](images/family_view.PNG) ![edit family view](images/edit-family_view.PNG)
+![family view](images/family_view.PNG) <br/>
+![edit family view](images/edit-family_view.PNG)
 
 If you're not a member of a family you have the ability to create a family. <br/>
 After creating a family you can *view/add/delete* members from family & edit family name.
@@ -102,7 +104,8 @@ After creating a family you can *view/add/delete* members from family & edit fam
 - **View Member Todo Table:** `http://localhost:3000/dashboard/todo`
 - **View Family Todo Table:** `http://localhost:3000/dashboard/todo/family`
 
-![member todo view](images/member-todo_view.PNG) ![family todo view](images/family-todo_view.PNG)
+![member todo view](images/member-todo_view.PNG) <br/> 
+![family todo view](images/family-todo_view.PNG)
 
 These two pages are identical in terms of appearance & functionality. <br/>
 From these pages you have access to *create,view,& update* a todo.
