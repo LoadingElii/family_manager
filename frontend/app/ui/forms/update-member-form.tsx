@@ -105,23 +105,20 @@ export const UpdateMemberForm = ({
               required
             />
           </div>
-          <Link href={"../../member"}>
             <button
               className=" mt-3 p-1 w-full rounded-md bg-green-600 hover:bg-green-300 "
               type="submit"
             >
               update
             </button>
-          </Link>
-
-          <Link href={"../../member"}>
             <button
               className=" mt-3 p-1 w-full rounded-md bg-red-600 hover:bg-red-300 "
               type="button"
             >
-              cancel
+              <Link href={"../../member"}>
+                 cancel
+              </Link>
             </button>
-          </Link>
         </form>
       </div>
     </main>

@@ -1,7 +1,6 @@
 "use client";
 import { DeleteMemberButton, UpdateMemberButton } from "@/app/lib/buttons";
 import { Member } from "@/app/lib/models";
-import Image from "next/image";
 
 export const MemberView = ({ member }: { member: Member }) => {
   return (

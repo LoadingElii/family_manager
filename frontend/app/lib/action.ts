@@ -83,6 +83,7 @@ export async function UpdateMember(formData: FormData) {
     last_name: formData.get("last-name") as string,
     email: formData.get("email") as string,
     password: formData.get("password") as string,
+    age: Number(formData.get("age")) 
   };
 
   const response = await fetch(BASE_URL + "/member/update", {
